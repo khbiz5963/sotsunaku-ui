@@ -1,8 +1,16 @@
 {
   "name": "@sotsunaku/ui",
+  "version": "0.1.0",
   "private": true,
-  "version": "0.0.1",
   "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./styles.css": "./src/index.css"
+  },
+  "peerDependencies": {
+    "react": "^19",
+    "react-dom": "^19"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
