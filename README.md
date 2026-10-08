@@ -43,6 +43,7 @@ CSS変数（トークン）を読み込むため、アプリのグローバルCS
 | 用途 | クラス |
 |---|---|
 | 画面のタイトル | `text-xl font-bold`（`pageTitleClassName`） |
+| パネル・ダイアログ・タブのタイトル | `text-lg font-bold`（`panelTitleClassName`） |
 | 区画の見出し | `text-sm font-semibold text-gray-700`（`sectionHeadingClassName`） |
 | 本文・ラベル・表の中身 | `text-sm` |
 | 補足・注釈・表の見出し・バッジ | `text-xs` |
@@ -91,6 +92,7 @@ CSS変数（トークン）を読み込むため、アプリのグローバルCS
 |---|---|---|
 | `textLinkClassName` | 文中・表の中のリンク | `text-primary hover:underline` |
 | `pageTitleClassName` | 画面のタイトル（h1） | `text-xl font-bold` |
+| `panelTitleClassName` | パネル・ダイアログ・タブのタイトル（h2） | `text-lg font-bold` |
 | `sectionHeadingClassName` | 区画の見出し（h2） | `text-sm font-semibold text-gray-700` |
 | `fieldLabelClassName` | 入力欄のラベル（縦に並ぶ形） | `flex flex-col gap-1 text-sm text-gray-700` |
 | `fieldLabelInlineClassName` | チェックボックス・ラジオのラベル（横に並ぶ形） | `flex items-center gap-2 text-sm text-gray-700` |
@@ -100,7 +102,7 @@ CSS変数（トークン）を読み込むため、アプリのグローバルCS
 
 - shadcn/uiのRadixベースコンポーネント（Button, Input, Table, Badge, Dialog, Tabs, Card）をneutralベース・上記トークンでカスタマイズしたもの。Buttonは標準の5種類×4サイズに絞っている
 - 汎用コンポーネント: `AmountInput`（カンマ区切り金額入力）, `useConfirmDialog`（確認ポップアップ）, `ActiveStatusPill`（有効/無効バッジ）, `TabNav`（セグメント/アンダーラインタブ、Next.js専用）, `iconActionClassName`（アイコン操作の共通スタイル）
-- クラス名の定数: `textLinkClassName`, `pageTitleClassName`, `sectionHeadingClassName`, `fieldLabelClassName`, `fieldLabelInlineClassName`, `fieldHintClassName`
+- クラス名の定数: `textLinkClassName`, `pageTitleClassName`, `panelTitleClassName`, `sectionHeadingClassName`, `fieldLabelClassName`, `fieldLabelInlineClassName`, `fieldHintClassName`
 
 ## 含まれないもの
 
