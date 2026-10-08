@@ -11,3 +11,4 @@ export * from "./components/use-confirm-dialog";
 export * from "./components/active-status-pill";
 export * from "./components/tab-nav";
 export * from "./lib/icon-action-style";
+export * from "./lib/ui-classes";
