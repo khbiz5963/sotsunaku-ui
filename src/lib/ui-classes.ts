@@ -22,3 +22,6 @@ export const fieldLabelInlineClassName = "flex items-center gap-2 text-sm text-g
 
 // 入力欄の下の補足文。
 export const fieldHintClassName = "text-xs text-gray-500";
+
+// フォームの枠の最大幅（1,024px）。入力欄が画面いっぱいに伸びないようにする。左寄せのまま使う。
+export const formMaxWidthClassName = "max-w-5xl";

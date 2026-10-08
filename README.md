@@ -97,12 +97,13 @@ CSS変数（トークン）を読み込むため、アプリのグローバルCS
 | `fieldLabelClassName` | 入力欄のラベル（縦に並ぶ形） | `flex flex-col gap-1 text-sm text-gray-700` |
 | `fieldLabelInlineClassName` | チェックボックス・ラジオのラベル（横に並ぶ形） | `flex items-center gap-2 text-sm text-gray-700` |
 | `fieldHintClassName` | 入力欄の下の補足文 | `text-xs text-gray-500` |
+| `formMaxWidthClassName` | フォームの枠の最大幅（1,024px）。入力欄が画面いっぱいに伸びないようにする（左寄せのまま） | `max-w-5xl` |
 
 ## 含まれるもの
 
 - shadcn/uiのRadixベースコンポーネント（Button, Input, Table, Badge, Dialog, Tabs, Card）をneutralベース・上記トークンでカスタマイズしたもの。Buttonは標準の5種類×4サイズに絞っている
 - 汎用コンポーネント: `AmountInput`（カンマ区切り金額入力）, `useConfirmDialog`（確認ポップアップ）, `ActiveStatusPill`（有効/無効バッジ）, `TabNav`（セグメント/アンダーラインタブ、Next.js専用）, `iconActionClassName`（アイコン操作の共通スタイル）
-- クラス名の定数: `textLinkClassName`, `pageTitleClassName`, `panelTitleClassName`, `sectionHeadingClassName`, `fieldLabelClassName`, `fieldLabelInlineClassName`, `fieldHintClassName`
+- クラス名の定数: `textLinkClassName`, `pageTitleClassName`, `panelTitleClassName`, `sectionHeadingClassName`, `fieldLabelClassName`, `fieldLabelInlineClassName`, `fieldHintClassName`, `formMaxWidthClassName`
 
 ## 含まれないもの
 
